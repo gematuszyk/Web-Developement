@@ -1,0 +1,155 @@
+@media only screen and (min-width: 640px)
+.col1 {
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 640px)
+article {
+    width: 50%;
+    padding: 10px;
+}
+
+user agent stylesheet
+
+
+html, body {
+  margin:0;
+  padding:0;
+  background-color: #cc1e1e;
+}
+@font-face { font-family: JuneBug; src: url('fonts/beyond_the_mountains.otf'); }
+.FontMarket {
+  color:white;
+  font-size: 55px;
+  letter-spacing: 2px;
+  font-family: JuneBug;
+  left: 0;
+  position:absolute;
+  text-align:center;
+  width: 100%;
+  top: 100px;
+}
+
+.steps {
+  position: absolute;
+  top:150px;
+  text-align:center;
+  width: 100%;
+  color:white;
+  font-size: 25px;
+}
+
+.stepText {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  padding-right: 40px;
+  margin-left: 25px;
+}
+
+.video {
+  position: absolute;
+  top:420px;
+  left:100px;
+  width: 80%;
+  height: 70%;
+}
+
+#fire {
+  width: 100%;
+  height: 75%;
+}
+.text, #text2 {
+  letter-spacing: 2px;
+  z-index: 100;
+
+  color:white;
+  left: 0;
+  position:absolute;
+  text-align:center;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+.text {
+  top: 30px;
+  font-size: 60px;
+}
+#text2 {
+  top: 122px;
+  font-size: 30px;
+}
+.col-header  a {
+  color: #282525;
+  font-size: 25px;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: sans-serif;;
+  background-color: grey;
+  padding: 8px;
+}
+.col-header a:hover {
+  color: #555;
+}
+
+.boxed {
+  border: 1px solid #cb2a2a ;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background:#cb2a2a;
+  color:white;
+  font-weight: lighter;
+}
+
+.container {
+  text-align: center;
+}
+
+
+#column-left{
+  margin-left: 35px;
+  float: left;
+  width: 28%;
+}
+#column-right{
+  margin-right: 35px;
+  float: right;
+  width: 28%;
+}
+#column-center{ display: inline-block;
+  width: 28%; }
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151618;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+ul.topnav li a:hover {
+  background-color: #555;
+}
+
+ul.topnav li.icon {display: none;}
