@@ -1,0 +1,16 @@
+@font-face { font-family: du; src: url('fonts/mathilde.otf'); }
+@font-face { font-family: rawen; src: url('fonts/RawengulkSans-094.otf'); }
+p  {
+  font-family: du;
+}
+h4{
+  margin-top: -10px;
+  font-family: rawen;
+}
+h3{
+  font-family: du;
+}
+h1 {
+  font-family: rawen;
+  font-size: 70px;
+}
